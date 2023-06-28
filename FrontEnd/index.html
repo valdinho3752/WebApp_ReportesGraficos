@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cargar archivo CSV</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cargar archivo CSV</h1>
+    <div class="file-input">
+      <input type="file" id="csvFileInput" accept=".csv">
+      <label for="csvFileInput">Seleccionar archivo CSV</label>
+    </div>
+    <div>
+      <select id="columnas1"></select>
+      <select id="columnas2"></select>
+      <select id="estilos"></select>
+    </div>
+    <div>
+      <button id="btnGenerar">Generar Gráfico</button>
+    </div>
+    <div id="csvData"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
